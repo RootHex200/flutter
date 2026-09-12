@@ -6,10 +6,19 @@
 ///
 /// To use, import `package:flutter/material.dart`.
 ///
+/// Material Design has moved out of the Flutter framework and into the
+/// standalone [material_ui](https://pub.dev/packages/material_ui) package,
+/// which is imported with `package:material_ui/material_ui.dart`. New Material
+/// Design development happens there, so new code should prefer that import over
+/// this library. Existing code can be migrated by running
+/// `dart fix --apply --code=migrate_design_widgets`.
+///
 /// {@youtube 560 315 https://www.youtube.com/watch?v=DL0Ix1lnC4w}
 ///
 /// See also:
 ///
+///  * [pub.dev/packages/material_ui](https://pub.dev/packages/material_ui) for
+///    the standalone Material Design package, the new home of this library.
 ///  * [docs.flutter.dev/ui/widgets/material](https://docs.flutter.dev/ui/widgets/material)
 ///    for a catalog of commonly-used Material component widgets.
 ///  * [m3.material.io](https://m3.material.io/) for the Material 3 specification

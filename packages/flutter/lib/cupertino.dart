@@ -11,10 +11,19 @@
 /// example the [Material
 /// Design](https://docs.flutter.dev/ui/widgets/material) set.
 ///
+/// The iOS design language has moved out of the Flutter framework and into the
+/// standalone [cupertino_ui](https://pub.dev/packages/cupertino_ui) package,
+/// which is imported with `package:cupertino_ui/cupertino_ui.dart`. New
+/// Cupertino development happens there, so new code should prefer that import
+/// over this library. Existing code can be migrated by running
+/// `dart fix --apply --code=migrate_design_widgets`.
+///
 /// {@youtube 560 315 https://www.youtube.com/watch?v=3PdUaidHc-E}
 ///
 /// See also:
 ///
+///  * [pub.dev/packages/cupertino_ui](https://pub.dev/packages/cupertino_ui)
+///    for the standalone Cupertino package, the new home of this library.
 ///  * [flutter.dev/widgets/cupertino](https://docs.flutter.dev/ui/widgets/cupertino)
 ///    for a catalog of all Cupertino widgets.
 ///  * [flutter.dev/widgets](https://docs.flutter.dev/ui/widgets)
